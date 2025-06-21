@@ -1,0 +1,46 @@
+{
+    "name": "SwipeControl",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "9969a777-d1d6-43d6-893a-622a96324356",
+            "actions": [
+                {
+                    "name": "Touch",
+                    "type": "Value",
+                    "id": "4ee12174-a009-4d96-9ced-6a2420fce9d9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5b352f6e-b138-4ec4-948c-36a81a51400a",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Swipe",
+            "bindingGroup": "Swipe",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
